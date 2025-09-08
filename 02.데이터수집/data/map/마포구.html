@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b740d58fd8525c3b3abda3a1493ad6aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b740d58fd8525c3b3abda3a1493ad6aa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b740d58fd8525c3b3abda3a1493ad6aa = L.map(
+                "map_b740d58fd8525c3b3abda3a1493ad6aa",
+                {
+                    center: [37.5553097221974, 126.935331733458],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fbe235e509b0d4f35f1e354473efde81 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fbe235e509b0d4f35f1e354473efde81.addTo(map_b740d58fd8525c3b3abda3a1493ad6aa);
+        
+    
+            var marker_cf5affacb7c5e68294bacea69eb98bf9 = L.marker(
+                [37.5553097221974, 126.935331733458],
+                {
+}
+            ).addTo(map_b740d58fd8525c3b3abda3a1493ad6aa);
+        
+    
+            var icon_4331bb83e7de37bc65696cf676b477c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1cba963f95f7acda741e514633d34e4e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_37fbfa00c1fd5325ebf6754e53eec836 = $(`<div id="html_37fbfa00c1fd5325ebf6754e53eec836" style="width: 100.0%; height: 100.0%;">신촌역점<br>02-325-7588<br>서울특별시 마포구 신촌로 88</div>`)[0];
+                popup_1cba963f95f7acda741e514633d34e4e.setContent(html_37fbfa00c1fd5325ebf6754e53eec836);
+            
+        
+
+        marker_cf5affacb7c5e68294bacea69eb98bf9.bindPopup(popup_1cba963f95f7acda741e514633d34e4e)
+        ;
+
+        
+    
+    
+                marker_cf5affacb7c5e68294bacea69eb98bf9.setIcon(icon_4331bb83e7de37bc65696cf676b477c0);
+            
+    
+            var marker_904706c85645340b23c656b441f3816d = L.marker(
+                [37.5609588167788, 126.924024982068],
+                {
+}
+            ).addTo(map_b740d58fd8525c3b3abda3a1493ad6aa);
+        
+    
+            var icon_b376fc5c2d6a1b52a903e96cb88bfdba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b56f7568684e8daefa6628f9c608c5d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9e37c14bf628800471f8ca85d67df097 = $(`<div id="html_9e37c14bf628800471f8ca85d67df097" style="width: 100.0%; height: 100.0%;">연트럴파크점<br>02-335-7805<br>서울특별시 마포구 동교로 233</div>`)[0];
+                popup_2b56f7568684e8daefa6628f9c608c5d.setContent(html_9e37c14bf628800471f8ca85d67df097);
+            
+        
+
+        marker_904706c85645340b23c656b441f3816d.bindPopup(popup_2b56f7568684e8daefa6628f9c608c5d)
+        ;
+
+        
+    
+    
+                marker_904706c85645340b23c656b441f3816d.setIcon(icon_b376fc5c2d6a1b52a903e96cb88bfdba);
+            
+    
+            var marker_7f6512ee44c91976940da3196ae72791 = L.marker(
+                [37.5518321491599, 126.921657269616],
+                {
+}
+            ).addTo(map_b740d58fd8525c3b3abda3a1493ad6aa);
+        
+    
+            var icon_c20ec8849293acaa7b9af099dcff4bed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a1b52d44162028d285e8305259a812ee = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7f2f92f6ab75d48b400ff2815df94ffa = $(`<div id="html_7f2f92f6ab75d48b400ff2815df94ffa" style="width: 100.0%; height: 100.0%;">홍대거리점<br>02-323-3795<br>서울특별시 마포구 어울마당로 76-1</div>`)[0];
+                popup_a1b52d44162028d285e8305259a812ee.setContent(html_7f2f92f6ab75d48b400ff2815df94ffa);
+            
+        
+
+        marker_7f6512ee44c91976940da3196ae72791.bindPopup(popup_a1b52d44162028d285e8305259a812ee)
+        ;
+
+        
+    
+    
+                marker_7f6512ee44c91976940da3196ae72791.setIcon(icon_c20ec8849293acaa7b9af099dcff4bed);
+            
+    
+            var marker_fac9c582aea41470e02fc14b8d6196b9 = L.marker(
+                [37.544603767606, 126.946646153695],
+                {
+}
+            ).addTo(map_b740d58fd8525c3b3abda3a1493ad6aa);
+        
+    
+            var icon_dda04af117a45f2af96ce269be59d298 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_016928d3111d640e25cbf50331b4649e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_08b5769e9bd7b6293c33b7bc4064b69d = $(`<div id="html_08b5769e9bd7b6293c33b7bc4064b69d" style="width: 100.0%; height: 100.0%;">공덕경의선숲길점<br>02-701-3967<br>서울특별시 마포구 백범로28길 22</div>`)[0];
+                popup_016928d3111d640e25cbf50331b4649e.setContent(html_08b5769e9bd7b6293c33b7bc4064b69d);
+            
+        
+
+        marker_fac9c582aea41470e02fc14b8d6196b9.bindPopup(popup_016928d3111d640e25cbf50331b4649e)
+        ;
+
+        
+    
+    
+                marker_fac9c582aea41470e02fc14b8d6196b9.setIcon(icon_dda04af117a45f2af96ce269be59d298);
+            
+    
+            var marker_8d08c37c99178a5f4fbe9d088e8d4e48 = L.marker(
+                [37.5577603250168, 126.923123267715],
+                {
+}
+            ).addTo(map_b740d58fd8525c3b3abda3a1493ad6aa);
+        
+    
+            var icon_fa9de29c29eccf9936a2a59db1ecdfa9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3db01e737456be28f18a60fd49328b02 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c150cec7b3285435010f7df01eec04ba = $(`<div id="html_c150cec7b3285435010f7df01eec04ba" style="width: 100.0%; height: 100.0%;">홍대역2번출구점<br>02-332-8079<br>서울특별시 마포구 동교로 200</div>`)[0];
+                popup_3db01e737456be28f18a60fd49328b02.setContent(html_c150cec7b3285435010f7df01eec04ba);
+            
+        
+
+        marker_8d08c37c99178a5f4fbe9d088e8d4e48.bindPopup(popup_3db01e737456be28f18a60fd49328b02)
+        ;
+
+        
+    
+    
+                marker_8d08c37c99178a5f4fbe9d088e8d4e48.setIcon(icon_fa9de29c29eccf9936a2a59db1ecdfa9);
+            
+    
+            var marker_4bf219455f4a22d814248cc440118004 = L.marker(
+                [37.5463012324804, 126.9527383577],
+                {
+}
+            ).addTo(map_b740d58fd8525c3b3abda3a1493ad6aa);
+        
+    
+            var icon_11822fd84f6a9577bdf609a0e724969b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57ac28a9e7eb35ab29d5f3223e27c916 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_20a6f1d5b21d863e8089fba328134f4c = $(`<div id="html_20a6f1d5b21d863e8089fba328134f4c" style="width: 100.0%; height: 100.0%;">공덕점<br>02-701-5785<br>서울특별시 마포구  마포대로</div>`)[0];
+                popup_57ac28a9e7eb35ab29d5f3223e27c916.setContent(html_20a6f1d5b21d863e8089fba328134f4c);
+            
+        
+
+        marker_4bf219455f4a22d814248cc440118004.bindPopup(popup_57ac28a9e7eb35ab29d5f3223e27c916)
+        ;
+
+        
+    
+    
+                marker_4bf219455f4a22d814248cc440118004.setIcon(icon_11822fd84f6a9577bdf609a0e724969b);
+            
+    
+            var marker_7b088d8b15454bea8f380539383c8af4 = L.marker(
+                [37.5548424769371, 126.922757662623],
+                {
+}
+            ).addTo(map_b740d58fd8525c3b3abda3a1493ad6aa);
+        
+    
+            var icon_90d47bfb79e5365f44d48ab4b7686731 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee54e784f97cc39728786433dab9e215 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cdace15bf122a828e88d463969e8ad87 = $(`<div id="html_cdace15bf122a828e88d463969e8ad87" style="width: 100.0%; height: 100.0%;">홍대역점<br>02-323-7791<br>서울특별시 마포구 어울마당로 111</div>`)[0];
+                popup_ee54e784f97cc39728786433dab9e215.setContent(html_cdace15bf122a828e88d463969e8ad87);
+            
+        
+
+        marker_7b088d8b15454bea8f380539383c8af4.bindPopup(popup_ee54e784f97cc39728786433dab9e215)
+        ;
+
+        
+    
+    
+                marker_7b088d8b15454bea8f380539383c8af4.setIcon(icon_90d47bfb79e5365f44d48ab4b7686731);
+            
+    
+            var marker_08231c5d96e8c41f2614b3051f736bfc = L.marker(
+                [37.5445267873155, 126.951363830233],
+                {
+}
+            ).addTo(map_b740d58fd8525c3b3abda3a1493ad6aa);
+        
+    
+            var icon_49e329dfeea06b754f44c40a1a8182ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00b60489a8ca8117b3db52409b2f4f8c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7045f64fdf825e46615d1444f17f44a3 = $(`<div id="html_7045f64fdf825e46615d1444f17f44a3" style="width: 100.0%; height: 100.0%;">공덕역북카페점<br>없음<br>서울특별시 마포구 마포대로 100</div>`)[0];
+                popup_00b60489a8ca8117b3db52409b2f4f8c.setContent(html_7045f64fdf825e46615d1444f17f44a3);
+            
+        
+
+        marker_08231c5d96e8c41f2614b3051f736bfc.bindPopup(popup_00b60489a8ca8117b3db52409b2f4f8c)
+        ;
+
+        
+    
+    
+                marker_08231c5d96e8c41f2614b3051f736bfc.setIcon(icon_49e329dfeea06b754f44c40a1a8182ae);
+            
+</script>
+</html>
